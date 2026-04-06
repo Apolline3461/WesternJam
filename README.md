@@ -39,3 +39,4 @@ The project uses GDevelop's **multiple files mode** so the development progress 
 ## ref assets
 
 https://pixabay.com/fr/music/optimiste-spaghetti-western-491538/
+https://www.freepik.com/free-vector/cowboy-icons-set_3887191.htm#fromView=search&page=1&position=1&uuid=9dfcb65a-11f2-4400-a319-127d4ffabba7&query=cowboy
