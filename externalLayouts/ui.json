@@ -1,0 +1,79 @@
+{
+  "associatedLayout": "GameScene",
+  "name": "UI",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Accuracy",
+      "persistentUuid": "b5019c11-87d3-4ed4-8676-2ace82562779",
+      "width": 0,
+      "x": 0,
+      "y": 675,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "ScoreLabel",
+      "persistentUuid": "657c444c-c35a-495d-9339-706719b40aa5",
+      "width": 0,
+      "x": 0,
+      "y": 625,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 114,
+      "layer": "UI",
+      "name": "Restart",
+      "persistentUuid": "aeda810d-fff4-4b92-96c4-d39161c38bd8",
+      "width": 700,
+      "x": 325,
+      "y": 285,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "UI",
+      "name": "TimeLimit",
+      "persistentUuid": "58a58131-ea97-4da4-8348-6f675f44ada2",
+      "width": 125,
+      "x": 575,
+      "y": 25,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.546875,
+    "windowMask": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "associatedLayout": "GameScene",
+  "name": "Ceiling",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 850,
+      "layer": "",
+      "name": "FloorCeiling",
+      "persistentUuid": "aaaa7338-1f86-4d03-9168-2b2609a3dc3d",
+      "width": 1475,
+      "x": -100,
+      "y": -75,
+      "z": 300,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.546875,
+    "windowMask": false
+  }
+}
