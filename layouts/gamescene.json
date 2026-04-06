@@ -20,10 +20,10 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.41943397827591405,
+    "zoomFactor": 0.5468750000000107,
     "windowMask": false,
     "selectedLayer": "",
-    "gameEditorMode": "instances-editor"
+    "gameEditorMode": "embedded-game"
   },
   "objectsGroups": [
     {
@@ -687,6 +687,7 @@
     {
       "assetStoreId": "",
       "name": "Walls",
+      "persistentUuid": "6d942c33-22a2-4201-968e-2abee3d18058",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
@@ -751,6 +752,7 @@
     {
       "assetStoreId": "",
       "name": "Barriers",
+      "persistentUuid": "ab872123-4444-49b3-8643-0a4711a338ea",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
@@ -786,6 +788,7 @@
     {
       "assetStoreId": "",
       "name": "FloorCeiling",
+      "persistentUuid": "7b6898ab-ab9f-4e2e-9e93-69ba38c1c3e9",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
@@ -970,6 +973,7 @@
     {
       "assetStoreId": "",
       "name": "StartRound",
+      "persistentUuid": "af04d87d-7759-4a20-ae93-baa2962a12db",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
@@ -980,9 +984,9 @@
         }
       ],
       "content": {
-        "width": 100,
-        "height": 100,
-        "depth": 100,
+        "width": 50,
+        "height": 50,
+        "depth": 50,
         "enableTextureTransparency": false,
         "facesOrientation": "Y",
         "frontFaceResourceName": "texture_12.png",
@@ -1141,6 +1145,7 @@
     {
       "assetStoreId": "",
       "name": "MarkerBelow",
+      "persistentUuid": "0bc039c5-19c6-4f0d-9683-99e0093bb9fb",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
@@ -1372,88 +1377,6 @@
       }
     },
     {
-      "assetStoreId": "9be1b0d0d5a1afad4537db989ea5e3a4a4564dfd123630a9bf61330a73803c63",
-      "name": "WalkJoystick",
-      "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
-      "variant": "",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {},
-      "childrenContent": {
-        "Border": {
-          "adaptCollisionMaskAutomatically": false,
-          "updateIfNotVisible": false,
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Line light joystick border.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "Thumb": {
-          "adaptCollisionMaskAutomatically": false,
-          "updateIfNotVisible": false,
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Line light joystick thumb.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
       "assetStoreId": "",
       "name": "HiddenWall",
       "type": "Scene3D::Cube3DObject",
@@ -1518,29 +1441,29 @@
       }
     },
     {
-      "assetStoreId": "e5919fb86a559b00001678c710efe55f4e9f2e032a9ff9610087370f998d57de",
-      "name": "ScreenOrientationChecker",
-      "type": "ScreenOrientationChecker::ScreenOrientationChecker",
-      "variant": "Black screen orientation checker",
+      "assetStoreId": "",
+      "name": "New3DModel",
+      "persistentUuid": "a2b0d38e-154b-47a0-9d80-c00151344b5a",
+      "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 2,
-          "leftEdgeAnchor": 1,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 2,
-          "topEdgeAnchor": 1,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
+      "behaviors": [],
       "content": {
-        "IsForceShown": false,
-        "BackgroundColor": "24;24;24",
-        "CornerRadius": 8,
-        "Padding": 5
+        "centerLocation": "CenteredOnZ",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 100,
+        "animations": []
       }
     }
   ],
@@ -1564,12 +1487,6 @@
           },
           {
             "objectName": "Restart"
-          },
-          {
-            "objectName": "WalkJoystick"
-          },
-          {
-            "objectName": "ScreenOrientationChecker"
           },
           {
             "objectName": "Crosshair"
@@ -1599,6 +1516,9 @@
       },
       {
         "objectName": "StartRound"
+      },
+      {
+        "objectName": "New3DModel"
       },
       {
         "objectName": "Camera"
@@ -1713,84 +1633,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SystemInfo::IsMobile"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"Touch controls\"",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "WalkJoystick"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::ActivateControl"
-                  },
-                  "parameters": [
-                    "WalkJoystick",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SpriteMultitouchJoystick::HasTouchStartedOnScreenSide"
-          },
-          "parameters": [
-            "",
-            "WalkJoystick",
-            "\"Left\"",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::TeleportAndPress"
-          },
-          "parameters": [
-            "WalkJoystick",
-            "CursorX(\"UI\")"
-          ]
         }
       ]
     },
@@ -1858,6 +1700,7 @@
           "comment": "Firing a bullet, using hit scan, a method of using raycasting instead of a projectile"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2051,18 +1894,7 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CenterY"
-                      },
-                      "parameters": [
-                        "Targets",
-                        "<",
-                        "Raycaster3D::IntersectionY()"
-                      ]
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
@@ -2120,7 +1952,8 @@
                       },
                       "parameters": [
                         "RoundStart",
-                        "True"
+                        "True",
+                        ""
                       ]
                     }
                   ],
@@ -2695,42 +2528,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SystemInfo::HasTouchScreen"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "SpriteMultitouchJoystick::HasTouchStartedOnScreenSide"
-              },
-              "parameters": [
-                "",
-                "WalkJoystick",
-                "\"Left\"",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MousePointerLock::RequestPointerLock"
-              },
-              "parameters": [
-                "",
-                ""
-              ]
-            }
-          ]
         }
       ]
     },
@@ -2767,6 +2564,30 @@
           "parameters": [
             "",
             "\"GameScene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextJustPressed"
+          },
+          "parameters": [
+            "",
+            "\"Escape\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
             ""
           ]
         }
