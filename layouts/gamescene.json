@@ -36,13 +36,19 @@
           "name": "StartRound"
         },
         {
-          "name": "Target2"
+          "name": "HatTarget"
         },
         {
           "name": "Target3"
         },
         {
           "name": "BottleTarget"
+        },
+        {
+          "name": "MalusTarget"
+        },
+        {
+          "name": "MalusTarget2"
         }
       ]
     }
@@ -376,7 +382,7 @@
       "persistentUuid": "22711494-72db-439f-8e55-79ee88e36244",
       "width": 10,
       "x": 850,
-      "y": -150,
+      "y": -225,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -435,7 +441,7 @@
       "customSize": true,
       "height": 50,
       "layer": "",
-      "name": "Target2",
+      "name": "HatTarget",
       "persistentUuid": "d67a2a0b-ac14-4e75-858a-54e38405c63f",
       "width": 10,
       "x": 1000,
@@ -450,22 +456,7 @@
       "customSize": true,
       "height": 50,
       "layer": "",
-      "name": "Target2",
-      "persistentUuid": "10cb1fb5-cfdd-44cd-a785-ea5657a1c876",
-      "width": 10,
-      "x": 1000,
-      "y": -525,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
-      "name": "Target2",
+      "name": "HatTarget",
       "persistentUuid": "444f5b33-2502-4d22-8790-e43f41f87987",
       "width": 10,
       "x": 1000,
@@ -480,26 +471,11 @@
       "customSize": true,
       "height": 50,
       "layer": "",
-      "name": "Target2",
+      "name": "HatTarget",
       "persistentUuid": "6f2784af-c69f-4a35-87ba-448db19b1612",
       "width": 10,
       "x": 1000,
       "y": -425,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
-      "name": "Target2",
-      "persistentUuid": "fadcd419-c235-429c-8077-223011e32de0",
-      "width": 10,
-      "x": 1000,
-      "y": -225,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -555,7 +531,7 @@
       "customSize": true,
       "height": 50,
       "layer": "",
-      "name": "Target2",
+      "name": "HatTarget",
       "persistentUuid": "a6dcfbde-1133-4bb7-ab49-94a97fe973c0",
       "width": 10,
       "x": 1000,
@@ -629,14 +605,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 100,
       "height": 50,
       "layer": "",
       "name": "BottleTarget",
       "persistentUuid": "cd3177b8-7aca-45f5-a303-388667f4e159",
       "width": 10,
-      "x": 850,
-      "y": -650,
+      "x": 1150,
+      "y": -500,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -651,7 +626,7 @@
       "persistentUuid": "fa2f6892-358f-4779-853a-293c83acd3b8",
       "width": 10,
       "x": 850,
-      "y": -275,
+      "y": -300,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -668,6 +643,112 @@
       "width": 10,
       "x": 850,
       "y": -780,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget",
+      "persistentUuid": "730e8bf9-2b4b-486b-b4b7-4837255e59bb",
+      "width": 10,
+      "x": 1000,
+      "y": -825,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget",
+      "persistentUuid": "dc46b1b5-66ff-4170-864b-e0bb51ad0181",
+      "width": 10,
+      "x": 1010,
+      "y": -475,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget",
+      "persistentUuid": "1855f51f-d34e-45d6-9fde-9efd2eae080d",
+      "width": 10,
+      "x": 850,
+      "y": -150,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget",
+      "persistentUuid": "51b1dbe0-d80f-43f3-991b-7cea28720eaa",
+      "width": 10,
+      "x": 1020,
+      "y": -550,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 100,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget2",
+      "persistentUuid": "915ababa-3f05-49aa-bdfe-18d6e93cf6ab",
+      "width": 10,
+      "x": 1000,
+      "y": -225,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget2",
+      "persistentUuid": "2121dbcc-ec1c-4169-9493-ff42731433b7",
+      "width": 10,
+      "x": 1150,
+      "y": -575,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget2",
+      "persistentUuid": "4018d39c-be7a-49e3-a0ee-a33eab77a120",
+      "width": 10,
+      "x": 850,
+      "y": -650,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -884,7 +965,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Target2",
+      "name": "HatTarget",
       "persistentUuid": "e035c12e-5f15-4323-a167-136449e15e2a",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
@@ -899,7 +980,7 @@
         "width": 100,
         "height": 100,
         "depth": 100,
-        "enableTextureTransparency": false,
+        "enableTextureTransparency": true,
         "facesOrientation": "Y",
         "frontFaceResourceName": "assets\\WoodSides.png",
         "backFaceResourceName": "Black.png",
@@ -1501,6 +1582,88 @@
         "bottomFaceResourceRepeat": false,
         "materialType": "StandardWithoutMetalness"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "MalusTarget",
+      "persistentUuid": "7a53e2ee-bbf2-46f9-83b6-71c8171e073a",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "assets\\WoodSides.png",
+        "backFaceResourceName": "Black.png",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "assets/Sheriff.png",
+        "rightFaceResourceName": "assets\\WoodBack.png",
+        "topFaceResourceName": "assets\\WoodSides.png",
+        "bottomFaceResourceName": "assets\\WoodSides.png",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "MalusTarget2",
+      "persistentUuid": "51dfb735-207d-4e43-9a39-66eba426011a",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "assets\\WoodSides.png",
+        "backFaceResourceName": "Black.png",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "assets/malusTarget2.png",
+        "rightFaceResourceName": "assets\\WoodBack.png",
+        "topFaceResourceName": "assets\\WoodSides.png",
+        "bottomFaceResourceName": "assets\\WoodSides.png",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1548,7 +1711,13 @@
         "objectName": "BottleTarget"
       },
       {
-        "objectName": "Target2"
+        "objectName": "HatTarget"
+      },
+      {
+        "objectName": "MalusTarget"
+      },
+      {
+        "objectName": "MalusTarget2"
       },
       {
         "objectName": "Target3"
@@ -2106,7 +2275,7 @@
                             "value": "PickedInstancesCount"
                           },
                           "parameters": [
-                            "Target2",
+                            "HatTarget",
                             "=",
                             "1"
                           ]
@@ -2170,6 +2339,82 @@
                             "Text",
                             "=",
                             "\"+5\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickedInstancesCount"
+                          },
+                          "parameters": [
+                            "MalusTarget",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "-3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "PopUpText",
+                            "Text",
+                            "=",
+                            "\"-3\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickedInstancesCount"
+                          },
+                          "parameters": [
+                            "MalusTarget2",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "-6"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "PopUpText",
+                            "Text",
+                            "=",
+                            "\"-6\""
                           ]
                         }
                       ]
@@ -2323,7 +2568,7 @@
                 "value": "AddForceXY"
               },
               "parameters": [
-                "Target2",
+                "HatTarget",
                 "0",
                 "140",
                 "1"
@@ -2337,6 +2582,28 @@
                 "Target3",
                 "0",
                 "200",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "MalusTarget",
+                "0",
+                "200",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "MalusTarget2",
+                "0",
+                "150",
                 "1"
               ]
             },

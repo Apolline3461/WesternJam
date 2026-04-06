@@ -710,6 +710,22 @@
         "name": "assets/bottle.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Sheriff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Sheriff.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/malusTarget2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/malusTarget2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
