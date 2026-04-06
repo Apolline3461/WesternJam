@@ -686,6 +686,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/starter.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/starter.png.png\"}",
+        "name": "starter.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/starter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/starter.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
