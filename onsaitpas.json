@@ -1,0 +1,340 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 264,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.shootinggallery3d",
+    "pixelsRounding": false,
+    "projectUuid": "aa34c97b-f3d2-4954-b078-458b4373aae4",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "3d-shooting-gallery",
+    "version": "1.0.0",
+    "name": "Soloud Shooter",
+    "description": "Its a Shooter game in a loud saloon.",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/GunSound.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0,\\\"sustainPunch\\\":0,\\\"decay\\\":0.26,\\\"tremoloDepth\\\":1,\\\"tremoloFrequency\\\":0,\\\"frequency\\\":891.8006572216817,\\\"frequencySweep\\\":300,\\\"frequencyDeltaSweep\\\":-3000,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":35,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":65,\\\"frequencyJump2Amount\\\":-25,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.47000000000000003,\\\"waveform\\\":\\\"pinknoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":43,\\\"squareDuty\\\":55,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":1,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":-1400,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":0.9,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"GunSound\"},\"localFilePath\":\"assets/GunSound.wav\"}",
+        "name": "GunSound",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/texture_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "texture_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/crosshair046.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crosshair046.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/arcade_mode.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "arcade_mode.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited3.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "8BitOperatorPlus8Regular_Edited.fnt",
+        "userAdded": true
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8BitOperatorPlus8Regular_Edited3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Walls.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walls.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/1Point2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1Point2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/2Point2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2Point2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/3Point2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3Point2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Black.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/game_over.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "game_over.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/WoodSides.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\WoodSides.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/WoodBack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\WoodBack.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/WoodBarrierTops.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\WoodBarrierTops.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Walls90Degrees.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walls90Degrees.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Floor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ceiling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ceiling.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Camera.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Camera.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Line light joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Line light joystick thumb.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Line light joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Line light joystick border.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/rotate-screen-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rotate-screen-icon.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Mobile Layouts/6a8102ce3340bf9f62300ee1a81ef0b2327b2c6e8d62d7dda68d547f5e2b5969_rotate-screen-icon.png",
+          "name": "rotate-screen-icon.png"
+        }
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gamescene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firstpersoncamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mousepointerlock"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gamepads"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/physicscharacter3dkeymapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/raycaster3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/doubleclick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/screenorientationchecker"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/ceiling"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/ui"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/touch-controls"
+    }
+  ]
+}
