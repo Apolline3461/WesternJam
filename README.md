@@ -33,3 +33,9 @@ The project uses GDevelop's **multiple files mode** so the development progress 
 
 - **Mouse**: interact with objects and scenes
 - **Esc**: pause / back to menu
+
+---
+
+## ref assets
+
+https://pixabay.com/fr/music/optimiste-spaghetti-western-491538/
