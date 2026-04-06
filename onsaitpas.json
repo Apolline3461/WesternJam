@@ -702,6 +702,14 @@
         "name": "assets/starter.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/bottle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/bottle.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

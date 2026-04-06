@@ -30,7 +30,7 @@
       "name": "Targets",
       "objects": [
         {
-          "name": "Target1"
+          "name": "cactusTarget"
         },
         {
           "name": "StartRound"
@@ -40,6 +40,9 @@
         },
         {
           "name": "Target3"
+        },
+        {
+          "name": "BottleTarget"
         }
       ]
     }
@@ -369,7 +372,7 @@
       "customSize": true,
       "height": 50,
       "layer": "",
-      "name": "Target1",
+      "name": "cactusTarget",
       "persistentUuid": "22711494-72db-439f-8e55-79ee88e36244",
       "width": 10,
       "x": 850,
@@ -384,26 +387,11 @@
       "customSize": true,
       "height": 50,
       "layer": "",
-      "name": "Target1",
+      "name": "cactusTarget",
       "persistentUuid": "38aa44d3-2a53-49a2-a9bf-49dce2fc4e59",
       "width": 10,
       "x": 850,
       "y": -950,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
-      "name": "Target1",
-      "persistentUuid": "aa51ffed-7535-4bee-a2e6-849a3e2b5250",
-      "width": 10,
-      "x": 850,
-      "y": -275,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -522,21 +510,6 @@
       "customSize": true,
       "height": 50,
       "layer": "",
-      "name": "Target2",
-      "persistentUuid": "34fa9770-f208-4ea3-ac40-feac89caa161",
-      "width": 10,
-      "x": 1000,
-      "y": -325,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
       "name": "Target3",
       "persistentUuid": "b8ee6b98-53fb-4a47-83e9-d805bbae60e1",
       "width": 10,
@@ -552,22 +525,7 @@
       "customSize": true,
       "height": 50,
       "layer": "",
-      "name": "Target1",
-      "persistentUuid": "99dd9140-81cc-42f9-85cb-e6ee9e194ee1",
-      "width": 10,
-      "x": 850,
-      "y": -650,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
-      "name": "Target1",
+      "name": "cactusTarget",
       "persistentUuid": "2035ab69-0669-4e69-8ea6-dab2e210d987",
       "width": 10,
       "x": 850,
@@ -582,7 +540,7 @@
       "customSize": true,
       "height": 50,
       "layer": "",
-      "name": "Target1",
+      "name": "cactusTarget",
       "persistentUuid": "68500e78-e10c-4c3b-b53e-f151c25eeafb",
       "width": 10,
       "x": 850,
@@ -612,22 +570,7 @@
       "customSize": true,
       "height": 50,
       "layer": "",
-      "name": "Target1",
-      "persistentUuid": "33e38943-1c0a-4b5f-be37-f2561c3b0386",
-      "width": 10,
-      "x": 850,
-      "y": -750,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
-      "name": "Target1",
+      "name": "cactusTarget",
       "persistentUuid": "b14ca1d7-eb39-4477-bd43-f46b58335e87",
       "width": 10,
       "x": 850,
@@ -655,21 +598,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
-      "layer": "",
-      "name": "Target2",
-      "persistentUuid": "db03f9b4-17c6-4068-bff8-80aeb3ce6698",
-      "width": 10,
-      "x": 1000,
-      "y": -825,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 300,
       "height": 850,
       "layer": "",
@@ -679,6 +607,68 @@
       "x": 275,
       "y": -75,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "Target3",
+      "persistentUuid": "7227ba32-85c8-491b-9131-217e93e90744",
+      "width": 10,
+      "x": 1160,
+      "y": -325,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 100,
+      "height": 50,
+      "layer": "",
+      "name": "BottleTarget",
+      "persistentUuid": "cd3177b8-7aca-45f5-a303-388667f4e159",
+      "width": 10,
+      "x": 850,
+      "y": -650,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "BottleTarget",
+      "persistentUuid": "fa2f6892-358f-4779-853a-293c83acd3b8",
+      "width": 10,
+      "x": 850,
+      "y": -275,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 100,
+      "height": 50,
+      "layer": "",
+      "name": "BottleTarget",
+      "persistentUuid": "195d81bc-ce8b-4eca-bfd9-5ec7964553f4",
+      "width": 10,
+      "x": 850,
+      "y": -780,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -853,7 +843,8 @@
     },
     {
       "assetStoreId": "",
-      "name": "Target1",
+      "name": "cactusTarget",
+      "persistentUuid": "9c9ebda7-3080-4c85-bbc4-6a97acf9395c",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
@@ -867,12 +858,12 @@
         "width": 100,
         "height": 100,
         "depth": 100,
-        "enableTextureTransparency": false,
+        "enableTextureTransparency": true,
         "facesOrientation": "Y",
         "frontFaceResourceName": "assets\\WoodSides.png",
         "backFaceResourceName": "Black.png",
         "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "1Point2.png",
+        "leftFaceResourceName": "Cactus 3.png",
         "rightFaceResourceName": "assets\\WoodBack.png",
         "topFaceResourceName": "assets\\WoodSides.png",
         "bottomFaceResourceName": "assets\\WoodSides.png",
@@ -894,6 +885,7 @@
     {
       "assetStoreId": "",
       "name": "Target2",
+      "persistentUuid": "e035c12e-5f15-4323-a167-136449e15e2a",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
@@ -934,6 +926,7 @@
     {
       "assetStoreId": "",
       "name": "Target3",
+      "persistentUuid": "ceb2d75f-c4eb-4b75-beb7-7a063572d0b0",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
@@ -1467,6 +1460,47 @@
         "width": 100,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BottleTarget",
+      "persistentUuid": "d13285a2-027a-497f-862c-8e69c46b7ff1",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "assets\\WoodSides.png",
+        "backFaceResourceName": "Black.png",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "assets/bottle.png",
+        "rightFaceResourceName": "assets\\WoodBack.png",
+        "topFaceResourceName": "assets\\WoodSides.png",
+        "bottomFaceResourceName": "assets\\WoodSides.png",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1508,7 +1542,10 @@
         "objectName": "FloorCeiling"
       },
       {
-        "objectName": "Target1"
+        "objectName": "cactusTarget"
+      },
+      {
+        "objectName": "BottleTarget"
       },
       {
         "objectName": "Target2"
@@ -1702,7 +1739,6 @@
           "comment": "Firing a bullet, using hit scan, a method of using raycasting instead of a projectile"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1994,7 +2030,7 @@
                             "value": "PickedInstancesCount"
                           },
                           "parameters": [
-                            "Target1",
+                            "cactusTarget",
                             "=",
                             "1"
                           ]
@@ -2020,6 +2056,44 @@
                             "Text",
                             "=",
                             "\"+1\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickedInstancesCount"
+                          },
+                          "parameters": [
+                            "BottleTarget",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "1.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "PopUpText",
+                            "Text",
+                            "=",
+                            "\"+1.5\""
                           ]
                         }
                       ]
@@ -2227,7 +2301,18 @@
                 "value": "AddForceXY"
               },
               "parameters": [
-                "Target1",
+                "cactusTarget",
+                "0",
+                "90",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "BottleTarget",
                 "0",
                 "90",
                 "1"
@@ -2327,6 +2412,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Timer controls",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2482,6 +2568,7 @@
       "comment": "Lock point when clicked in to screen"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2687,10 +2774,6 @@
     }
   ],
   "behaviorsSharedData": [
-    {
-      "name": "Anchor",
-      "type": "AnchorBehavior::AnchorBehavior"
-    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
