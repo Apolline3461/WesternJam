@@ -726,12 +726,251 @@
         "name": "assets/malusTarget2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Dollars Bag.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dollars Bag.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/5fe517d8b4f29c8fba2159a1989d2470090fa2cb1acfd23615cded89742c7e6f_Dollars Bag.png",
+          "name": "Dollars Bag.png"
+        }
+      },
+      {
+        "file": "assets/Stool.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Stool.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy Props MegaKit - Standard/728eb91eb5e8996437cd303f4aaf6ce7dfd46481b0c740dcc18ead5eaa42a6fb_Stool.glb",
+          "name": "Stool.glb"
+        }
+      },
+      {
+        "file": "assets/barrel.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "barrel.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Kit/props/7e7f8f67b32f988ebc5841a521dca5c6b071d4751fc77a2ed15d689407fe6dcd_barrel.glb",
+          "name": "barrel.glb"
+        }
+      },
+      {
+        "file": "assets/Mug.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Mug.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Food/Drink/1a41c01861996314d6bc2af2b6142bf182bd7ae107209fdc80d4d34270709240_Mug.glb",
+          "name": "Mug.glb"
+        }
+      },
+      {
+        "file": "assets/Bomb.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bomb.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Pirate Kit/Prop/e8692c7165984e7b38e5ed9ce568e14082c98c6da7c870948d79581149ba9eff_Bomb.glb",
+          "name": "Bomb.glb"
+        }
+      },
+      {
+        "file": "assets/Table Cross.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Table Cross.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/furniture/8d003059f07149f93f28350d93d94375909b27f2b8cf430d166f985ebff5738d_Table Cross.glb",
+          "name": "Table Cross.glb"
+        }
+      },
+      {
+        "file": "assets/Barrel2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Barrel.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Food/Drink/3e4091dd3eabe4e3d92c37e30304ec469d174c41994c21d75c766a855af75fa9_Barrel.glb",
+          "name": "Barrel.glb"
+        }
+      },
+      {
+        "file": "assets/Chair.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Chair.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/furniture/a7578994f728724e760e45393420063ff4977fae6f3a0983870cf547df583164_Chair.glb",
+          "name": "Chair.glb"
+        }
+      },
+      {
+        "file": "assets/Crate Big Stack 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Crate Big Stack 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Fantasy RTS/5f76554af319563e13855c4d78e92190b0044c04f428307402f9ec2f24e52de6_Crate Big Stack 2.glb",
+          "name": "Crate Big Stack 2.glb"
+        }
+      },
+      {
+        "file": "assets/Cabinet Bed.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Cabinet Bed.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/furniture/fbd8a3ae165fb1ab23245b47fee8dcbedc2b350370078fc083064afc6953bdb6_Cabinet Bed.glb",
+          "name": "Cabinet Bed.glb"
+        }
+      },
+      {
+        "file": "assets/Bookcase Open.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bookcase Open.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/furniture/b9cdf232b08381303d8c69ab78ee98ad836b479a0cfce6f525039b0a290da469_Bookcase Open.glb",
+          "name": "Bookcase Open.glb"
+        }
+      },
+      {
+        "file": "assets/Kitchen Cabinet Upper Double.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Kitchen Cabinet Upper Double.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/furniture/18158b5fc7b105ff62f3ff6dc3be51af51cb1bb92cbba8d0f1760c30e48f9dd1_Kitchen Cabinet Upper Double.glb",
+          "name": "Kitchen Cabinet Upper Double.glb"
+        }
+      },
+      {
+        "file": "assets/Shelf Small Bottles.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Shelf Small Bottles.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy Props MegaKit - Standard/bf2dfda9ad4b4d73551c327027739bbdd71e0ecebf706976e82d77d2c6998651_Shelf Small Bottles.glb",
+          "name": "Shelf Small Bottles.glb"
+        }
+      },
+      {
+        "file": "assets/Shelf Simple.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Shelf Simple.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy Props MegaKit - Standard/48b099763ea68869e3d03e3883ff7b46ad354948fa5430950cefdcd8097dd0d2_Shelf Simple.glb",
+          "name": "Shelf Simple.glb"
+        }
+      },
+      {
+        "file": "assets/Rifle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rifle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/c3b3b93296e16b9aead81db1ddbbfd0664d38ac13f1a3a710d2c26dd415a3f0d_Rifle.png",
+          "name": "Rifle.png"
+        }
+      },
+      {
+        "file": "assets/soundthrough.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/soundthrough.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/glass-breaking.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/glass-breaking.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin-drop.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/coin-drop.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sher.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sher.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "f94a6af5ad900538ebca64a566d588b46c89e25b29add8178966c5f5bc8d1836",
+      "name": "Shelf_Simple",
+      "persistentUuid": "412d0b89-5e7b-4bfe-a67c-1a8b0f45aff4",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "CenteredOnZ",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 36,
+        "height": 36,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Shelf Simple.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 36,
+        "animations": []
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Shelf_Simple"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [],

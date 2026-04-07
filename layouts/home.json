@@ -68,7 +68,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
+      "name": "Title",
       "persistentUuid": "ca2a5d88-4285-454b-a5f3-499309ad8c94",
       "width": 0,
       "x": 163,
@@ -713,7 +713,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "Title",
       "persistentUuid": "e4c9b540-18f7-43ef-b0a3-50d6e28be077",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -791,7 +791,7 @@
         "objectName": "MedievalButtonBrown"
       },
       {
-        "objectName": "NewText"
+        "objectName": "Title"
       }
     ]
   },
@@ -945,6 +945,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Object3D",
+      "type": "Scene3D::Base3DBehavior"
     },
     {
       "name": "Opacity",
