@@ -49,6 +49,9 @@
         },
         {
           "name": "MalusTarget2"
+        },
+        {
+          "name": "Bomb"
         }
       ]
     }
@@ -749,6 +752,23 @@
       "width": 10,
       "x": 850,
       "y": -650,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 54,
+      "height": 40,
+      "layer": "",
+      "name": "Bomb",
+      "persistentUuid": "b2115161-409b-42ce-b52c-36fa5a36e748",
+      "width": 18,
+      "x": 1000,
+      "y": -425,
+      "z": 64,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -1811,7 +1831,12 @@
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
         "centerLocation": "CenteredOnZ",
         "crossfadeDuration": 0.10000000149011612,
@@ -2975,7 +3000,7 @@
                             "value": "PickedInstancesCount"
                           },
                           "parameters": [
-                            "MalusTarget2",
+                            "Bomb",
                             "=",
                             "1"
                           ]
@@ -3007,11 +3032,33 @@
                         },
                         {
                           "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "game_over.ogg",
+                            "",
+                            "50",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SetBooleanVariable"
                           },
                           "parameters": [
                             "bomb",
                             "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Scene"
+                          },
+                          "parameters": [
+                            "",
+                            "\"End\"",
                             ""
                           ]
                         }
@@ -3207,6 +3254,17 @@
             },
             {
               "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bomb",
+                "0",
+                "120",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -3384,25 +3442,6 @@
                 "game_over.ogg",
                 "",
                 "50",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenterX"
-              },
-              "parameters": [
-                "Restart",
-                "=",
-                "ScreenWidth() / 2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Restart",
                 ""
               ]
             },

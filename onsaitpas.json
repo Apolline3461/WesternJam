@@ -943,6 +943,30 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/bomb_active.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bomb_active.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Props/Decoration/a4bc4905a49e05a608598909f26850f153596be567ec330f8d711b08f9b48c30_bomb_active.png",
+          "name": "bomb_active.png"
+        }
+      },
+      {
+        "file": "assets/bomb_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bomb_idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Props/Decoration/c72f42c52390b05c8726e6183f4f9a57f44d92ce2185ddebeab6f52999cde4df_bomb_idle.png",
+          "name": "bomb_idle.png"
+        }
       }
     ]
   },
