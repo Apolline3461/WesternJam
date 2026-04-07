@@ -933,6 +933,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/explosion.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/explosion.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -973,7 +983,23 @@
     ]
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "FinalScore",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "bomb",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "FinalAccurancy",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -982,6 +1008,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/home"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/end"
     }
   ],
   "externalEvents": [],
