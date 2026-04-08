@@ -1903,6 +1903,42 @@
         "metadata": "",
         "name": "assets/decors/Mug.glb",
         "userAdded": false
+      },
+      {
+        "file": "assets/decors/Shelf Small Bottles.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets/decors/Shelf Small Bottles.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/decors/Chair.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets/decors/Chair.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/decors/Stool.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets/decors/Stool.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/decors/Table Cross.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets/decors/Table Cross.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/decors/Horseshoe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/decors/Horseshoe.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

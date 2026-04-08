@@ -760,23 +760,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 73.24873306793916,
-      "height": 48.03645700404744,
-      "layer": "",
-      "name": "BOMB",
-      "persistentUuid": "76bc5ca9-a34f-4abc-91fd-e46dc9ed3fdd",
-      "width": 45,
-      "x": 1050,
-      "y": -650,
-      "z": 64,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 50,
       "layer": "",
       "name": "MalusTarget",
@@ -1327,6 +1310,107 @@
       "x": 310,
       "y": 85,
       "z": 60,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 32,
+      "layer": "",
+      "name": "",
+      "persistentUuid": "e1da770e-c966-42c7-bae2-60a3725670da",
+      "width": 32,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 100,
+      "layer": "",
+      "name": "shelfbottle",
+      "persistentUuid": "810c005d-b7f7-4261-90d3-1bb19ab01ce1",
+      "width": 25.913920402441633,
+      "x": 775,
+      "y": 200,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 81.56610723127868,
+      "height": 74.69568424151618,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BOMB",
+      "persistentUuid": "33e137d7-9512-407e-a696-7b1324377ebb",
+      "rotationX": 329,
+      "rotationY": 24,
+      "width": 50,
+      "x": 1050,
+      "y": -650,
+      "z": 64,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 45,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "stool",
+      "persistentUuid": "8b126733-5fbe-41fa-89c1-150653a4fd79",
+      "width": 30,
+      "x": 250,
+      "y": 575,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 45,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "stool",
+      "persistentUuid": "667ef51f-5d0b-4533-85c4-ec4e72ba463d",
+      "width": 30,
+      "x": 250,
+      "y": 400,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 45,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "stool",
+      "persistentUuid": "6f31db7e-5346-490b-a6c8-b808927988f0",
+      "width": 30,
+      "x": 250,
+      "y": 125,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -2222,67 +2306,6 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "f95710b2af8510b03293b4569bec3ca66511e7c050a866c7a9e13e375a211b02",
-      "name": "Rifle",
-      "persistentUuid": "9c4b6ec8-d506-4f9b-a83d-2b4a3835a966",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/decors/Rifle.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 197,
-                        "y": 0
-                      },
-                      {
-                        "x": 197,
-                        "y": 51
-                      },
-                      {
-                        "x": 0,
-                        "y": 51
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "name": "BOMB",
       "persistentUuid": "35da460e-d6a7-45fd-9dce-b5c1f53c609f",
@@ -2442,6 +2465,188 @@
         "width": 100,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "shelfbottle",
+      "persistentUuid": "20ead8ac-c85d-4fe2-bc50-a7310a2e61a3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "CenteredOnZ",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets/decors/Shelf Small Bottles.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "chair",
+      "persistentUuid": "3d4e21df-3bf7-401d-8521-ffdbac8a5d86",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "CenteredOnZ",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets/decors/Chair.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "stool",
+      "persistentUuid": "8aad3ca9-7884-46b9-b46d-53831c725e8f",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "CenteredOnZ",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets/decors/Stool.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "arme",
+      "persistentUuid": "1b7d413c-0f9d-493e-83e6-1eac2def82d2",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "assets/decors/Rifle.png",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness",
+        "tint": "255;255;255",
+        "isCastingShadow": true,
+        "isReceivingShadow": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "table",
+      "persistentUuid": "a647fe7c-4efa-4ada-9dc9-feff2eab1111",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "CenteredOnZ",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets/decors/Table Cross.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "horse",
+      "persistentUuid": "2da7747e-e97f-4233-b966-a4043a9944d3",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "assets/decors/Horseshoe.png",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness",
+        "tint": "255;255;255",
+        "isCastingShadow": true,
+        "isReceivingShadow": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2525,13 +2730,28 @@
         "objectName": "MarkerAbove"
       },
       {
-        "objectName": "Rifle"
-      },
-      {
         "objectName": "BOMB"
       },
       {
         "objectName": "etagere"
+      },
+      {
+        "objectName": "shelfbottle"
+      },
+      {
+        "objectName": "chair"
+      },
+      {
+        "objectName": "stool"
+      },
+      {
+        "objectName": "arme"
+      },
+      {
+        "objectName": "table"
+      },
+      {
+        "objectName": "horse"
       }
     ]
   },
