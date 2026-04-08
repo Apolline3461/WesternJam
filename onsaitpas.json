@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 264,
+    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -967,6 +967,16 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Props/Decoration/c72f42c52390b05c8726e6183f4f9a57f44d92ce2185ddebeab6f52999cde4df_bomb_idle.png",
           "name": "bomb_idle.png"
         }
+      },
+      {
+        "file": "assets/crowded-bar.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/crowded-bar.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -1022,6 +1032,16 @@
       "name": "FinalAccurancy",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "MusicMuted",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "SoundMuted",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

@@ -2312,8 +2312,11 @@
     {
       "description": "Control a platformer character with a gamepad.",
       "fullName": "Platformer gamepad mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "PlatformerGamepadMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -2917,8 +2920,11 @@
     {
       "description": "Control a 3D physics character with a gamepad.",
       "fullName": "3D platformer gamepad mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Platformer3DGamepadMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -3141,8 +3147,11 @@
     {
       "description": "Control a 3D physics character with a gamepad.",
       "fullName": "3D shooter gamepad mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Shooter3DGamepadMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -3374,8 +3383,11 @@
     {
       "description": "Control camera rotations with a gamepad.",
       "fullName": "First person camera gamepad mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FirstPersonGamepadMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -4570,8 +4582,11 @@
     {
       "description": "Control a 3D physics car with a gamepad.",
       "fullName": "3D car gamepad mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "PhysicsCar3DGamepadMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -4975,8 +4990,11 @@
     {
       "description": "Control a top-down character with a gamepad.",
       "fullName": "Top-down gamepad mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "TopDownGamepadMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {

@@ -2310,6 +2310,19 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/crowded-bar.mp3",
+            "2",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "events": [
