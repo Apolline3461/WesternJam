@@ -49,6 +49,9 @@
         },
         {
           "name": "MalusTarget2"
+        },
+        {
+          "name": "BOMB"
         }
       ]
     }
@@ -596,7 +599,7 @@
       "persistentUuid": "7227ba32-85c8-491b-9131-217e93e90744",
       "width": 10,
       "x": 1160,
-      "y": -325,
+      "y": -350,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -671,7 +674,7 @@
       "name": "MalusTarget",
       "persistentUuid": "dc46b1b5-66ff-4170-864b-e0bb51ad0181",
       "width": 10,
-      "x": 1010,
+      "x": 1025,
       "y": -475,
       "zOrder": 0,
       "numberProperties": [],
@@ -779,6 +782,128 @@
       "width": 32,
       "x": 0,
       "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 73.24873306793916,
+      "height": 48.03645700404744,
+      "layer": "",
+      "name": "BOMB",
+      "persistentUuid": "76bc5ca9-a34f-4abc-91fd-e46dc9ed3fdd",
+      "width": 45,
+      "x": 1050,
+      "y": -650,
+      "z": 64,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget",
+      "persistentUuid": "01d22c2f-5886-4d28-8c30-ecb3a9d852ef",
+      "width": 10,
+      "x": 1000,
+      "y": -825,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget",
+      "persistentUuid": "eee03fca-fb43-4cda-ac98-857b9ade0f6b",
+      "width": 10,
+      "x": 1000,
+      "y": -825,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget",
+      "persistentUuid": "39ca5720-9908-41cd-a712-452c047c5942",
+      "width": 10,
+      "x": 1000,
+      "y": -825,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget",
+      "persistentUuid": "3530fb35-fcdc-42c1-8137-7a5bb094b220",
+      "width": 10,
+      "x": 1000,
+      "y": -825,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget",
+      "persistentUuid": "0766a647-4387-4079-bcaa-74545a361f14",
+      "width": 10,
+      "x": 1000,
+      "y": -825,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget",
+      "persistentUuid": "3a7f8b4a-3b5d-4959-bf42-ce94992ab9e3",
+      "width": 10,
+      "x": 1000,
+      "y": -825,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "MalusTarget",
+      "persistentUuid": "78c19d28-6018-4e63-949b-bcafff70d82d",
+      "width": 10,
+      "x": 1000,
+      "y": -825,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -1740,7 +1865,12 @@
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
         "centerLocation": "CenteredOnZ",
         "crossfadeDuration": 0.10000000149011612,
@@ -1752,8 +1882,8 @@
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "assets/targets/explosion/Bomb.glb",
         "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
+        "rotationX": 1160,
+        "rotationY": -325,
         "rotationZ": 90,
         "width": 100,
         "animations": []
@@ -2609,7 +2739,7 @@
                             "value": "PickedInstancesCount"
                           },
                           "parameters": [
-                            "Bomb",
+                            "BOMB",
                             "=",
                             "1"
                           ]
@@ -2866,7 +2996,7 @@
                 "value": "AddForceXY"
               },
               "parameters": [
-                "Bomb",
+                "BOMB",
                 "0",
                 "120",
                 "1"
