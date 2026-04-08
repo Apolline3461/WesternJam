@@ -1896,6 +1896,13 @@
         "metadata": "",
         "name": "assets/decors/Kitchen Cabinet Upper Double.glb",
         "userAdded": false
+      },
+      {
+        "file": "assets/decors/Mug.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets/decors/Mug.glb",
+        "userAdded": false
       }
     ]
   },

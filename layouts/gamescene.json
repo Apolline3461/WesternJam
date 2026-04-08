@@ -156,7 +156,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 50,
+      "depth": 61,
       "height": 850,
       "layer": "",
       "name": "Barriers",
@@ -1008,8 +1008,8 @@
       "name": "etagere",
       "persistentUuid": "cb99b076-127a-4409-81dd-3fcc33d35c67",
       "width": 35,
-      "x": 325,
-      "y": 50,
+      "x": 350,
+      "y": 75,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -1258,6 +1258,75 @@
       "width": 75,
       "x": 640,
       "y": 75,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 32,
+      "layer": "",
+      "name": "",
+      "persistentUuid": "8367f076-a9af-479b-b498-022536520d3e",
+      "width": 32,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 289,
+      "customSize": true,
+      "depth": 19.175084175084173,
+      "height": 22.666666666666664,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shot",
+      "persistentUuid": "eca06300-824d-488d-9881-983b3b46e9ce",
+      "width": 20,
+      "x": 650,
+      "y": 50,
+      "z": 80,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 28,
+      "customSize": true,
+      "depth": 19.175084175084173,
+      "height": 22.666666666666664,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shot",
+      "persistentUuid": "c47694a5-07ad-4e7e-b7df-648050756158",
+      "width": 20,
+      "x": 290,
+      "y": 75,
+      "z": 60,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 289,
+      "customSize": true,
+      "depth": 19.175084175084173,
+      "height": 22.666666666666664,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shot",
+      "persistentUuid": "796b6de1-2442-43ff-9864-6d59ed9c33d2",
+      "width": 20,
+      "x": 310,
+      "y": 85,
+      "z": 60,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -2347,6 +2416,32 @@
         "width": 100,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "shot",
+      "persistentUuid": "475d2293-c12e-4ffd-8ea9-3cd2295c17dc",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "CenteredOnZ",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets/decors/Mug.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 100,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2389,6 +2484,9 @@
       },
       {
         "objectName": "FloorCeiling"
+      },
+      {
+        "objectName": "shot"
       },
       {
         "objectName": "bar"
