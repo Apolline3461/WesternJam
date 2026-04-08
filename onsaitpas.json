@@ -1861,6 +1861,41 @@
         "name": "assets/WoodBack.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/decors/barrel.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets/decors/barrel.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/decors/Bookcase Open.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets/decors/Bookcase Open.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/decors/Cabinet Bed.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets/decors/Cabinet Bed.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/decors/Crate Big Stack 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets/decors/Crate Big Stack 2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/decors/Kitchen Cabinet Upper Double.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets/decors/Kitchen Cabinet Upper Double.glb",
+        "userAdded": false
       }
     ]
   },
