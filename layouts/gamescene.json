@@ -819,11 +819,11 @@
         "depth": 100,
         "enableTextureTransparency": false,
         "facesOrientation": "Y",
-        "frontFaceResourceName": "Black.png",
+        "frontFaceResourceName": "assets\\Floor.png",
         "backFaceResourceName": "",
         "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "Black.png",
-        "rightFaceResourceName": "Black.png",
+        "leftFaceResourceName": "assets\\Floor.png",
+        "rightFaceResourceName": "assets\\Floor.png",
         "topFaceResourceName": "Walls.png",
         "bottomFaceResourceName": "Walls.png",
         "frontFaceVisible": false,
@@ -920,8 +920,8 @@
         "depth": 100,
         "enableTextureTransparency": false,
         "facesOrientation": "Y",
-        "frontFaceResourceName": "assets\\Floor.png",
-        "backFaceResourceName": "assets\\Ceiling.png",
+        "frontFaceResourceName": "assets\\WoodBack.png",
+        "backFaceResourceName": "assets\\WoodBack.png",
         "backFaceUpThroughWhichAxisRotation": "X",
         "leftFaceResourceName": "Black.png",
         "rightFaceResourceName": "Black.png",
@@ -964,7 +964,7 @@
         "frontFaceResourceName": "assets\\WoodSides.png",
         "backFaceResourceName": "Black.png",
         "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "Cactus 3.png",
+        "leftFaceResourceName": "assets/targets/Cactus 3.png",
         "rightFaceResourceName": "assets\\WoodBack.png",
         "topFaceResourceName": "assets\\WoodSides.png",
         "bottomFaceResourceName": "assets\\WoodSides.png",
@@ -1005,7 +1005,7 @@
         "frontFaceResourceName": "assets\\WoodSides.png",
         "backFaceResourceName": "Black.png",
         "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "2Point2.png",
+        "leftFaceResourceName": "assets/targets/2Point2.png",
         "rightFaceResourceName": "assets\\WoodBack.png",
         "topFaceResourceName": "assets\\WoodSides.png",
         "bottomFaceResourceName": "assets\\WoodSides.png",
@@ -1046,7 +1046,7 @@
         "frontFaceResourceName": "assets\\WoodSides.png",
         "backFaceResourceName": "Black.png",
         "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "3Point2.png",
+        "leftFaceResourceName": "assets/targets/3Point2.png",
         "rightFaceResourceName": "assets\\WoodBack.png",
         "topFaceResourceName": "assets\\WoodSides.png",
         "bottomFaceResourceName": "assets\\WoodSides.png",
@@ -1084,7 +1084,7 @@
         "depth": 2,
         "enableTextureTransparency": false,
         "facesOrientation": "Y",
-        "frontFaceResourceName": "assets/starter.png",
+        "frontFaceResourceName": "assets/buttons/starter.png",
         "backFaceResourceName": "assets\\WoodBack.png",
         "backFaceUpThroughWhichAxisRotation": "X",
         "leftFaceResourceName": "assets\\WoodBack.png",
@@ -1276,6 +1276,7 @@
     {
       "assetStoreId": "",
       "name": "MarkerAbove",
+      "persistentUuid": "f3176e17-34f3-4fbd-8b13-e240908f723d",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
@@ -1475,6 +1476,7 @@
     {
       "assetStoreId": "",
       "name": "HiddenWall",
+      "persistentUuid": "04e5770f-49d3-423b-918d-4dd57572cb2c",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
@@ -1514,13 +1516,13 @@
         "depth": 100,
         "enableTextureTransparency": false,
         "facesOrientation": "Y",
-        "frontFaceResourceName": "Black.png",
+        "frontFaceResourceName": "assets/Floor.png",
         "backFaceResourceName": "",
         "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "Black.png",
-        "rightFaceResourceName": "Black.png",
-        "topFaceResourceName": "Black.png",
-        "bottomFaceResourceName": "Black.png",
+        "leftFaceResourceName": "assets\\Floor.png",
+        "rightFaceResourceName": "assets\\Floor.png",
+        "topFaceResourceName": "assets\\Floor.png",
+        "bottomFaceResourceName": "assets\\Floor.png",
         "frontFaceVisible": false,
         "backFaceVisible": false,
         "leftFaceVisible": true,
@@ -1534,32 +1536,6 @@
         "topFaceResourceRepeat": true,
         "bottomFaceResourceRepeat": true,
         "materialType": "StandardWithoutMetalness"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "New3DModel",
-      "persistentUuid": "a2b0d38e-154b-47a0-9d80-c00151344b5a",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 100,
-        "height": 100,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 90,
-        "width": 100,
-        "animations": []
       }
     },
     {
@@ -1584,7 +1560,7 @@
         "frontFaceResourceName": "assets\\WoodSides.png",
         "backFaceResourceName": "Black.png",
         "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "assets/bottle.png",
+        "leftFaceResourceName": "assets/targets/bottle.png",
         "rightFaceResourceName": "assets\\WoodBack.png",
         "topFaceResourceName": "assets\\WoodSides.png",
         "bottomFaceResourceName": "assets\\WoodSides.png",
@@ -1625,7 +1601,7 @@
         "frontFaceResourceName": "assets\\WoodSides.png",
         "backFaceResourceName": "Black.png",
         "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "assets/Sheriff.png",
+        "leftFaceResourceName": "assets/targets/Sheriff.png",
         "rightFaceResourceName": "assets\\WoodBack.png",
         "topFaceResourceName": "assets\\WoodSides.png",
         "bottomFaceResourceName": "assets\\WoodSides.png",
@@ -1666,7 +1642,7 @@
         "frontFaceResourceName": "assets\\WoodSides.png",
         "backFaceResourceName": "Black.png",
         "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "assets/malusTarget2.png",
+        "leftFaceResourceName": "assets/targets/malusTarget2.png",
         "rightFaceResourceName": "assets\\WoodBack.png",
         "topFaceResourceName": "assets\\WoodSides.png",
         "bottomFaceResourceName": "assets\\WoodSides.png",
@@ -1684,67 +1660,6 @@
         "bottomFaceResourceRepeat": false,
         "materialType": "StandardWithoutMetalness"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "f17d2c730f0ba2d8e522e426dacb9d8b19b5709232d6682e77a887dec99adef5",
-      "name": "Dollars_Bag",
-      "persistentUuid": "6b729ded-357f-4e48-bc37-dfe8eff949dd",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Dollars Bag.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 22
-                      },
-                      {
-                        "x": 0,
-                        "y": 22
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "assetStoreId": "b873462da6ae53e209d8e54fb549003f1418fb6a778fa593e4a0d90ad4c65ba5",
@@ -1846,7 +1761,7 @@
         "isReceivingShadow": true,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Bomb.glb",
+        "modelResourceName": "assets/targets/explosion/Bomb.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
@@ -2084,7 +1999,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Rifle.png",
+                  "image": "assets/decors/Rifle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2185,9 +2100,6 @@
         "objectName": "StartRound"
       },
       {
-        "objectName": "New3DModel"
-      },
-      {
         "objectName": "Camera"
       },
       {
@@ -2195,9 +2107,6 @@
       },
       {
         "objectName": "MarkerAbove"
-      },
-      {
-        "objectName": "Dollars_Bag"
       },
       {
         "objectName": "Stool"
@@ -2317,8 +2226,8 @@
           },
           "parameters": [
             "",
-            "assets/crowded-bar.mp3",
-            "2",
+            "assets/sound/crowded-bar.mp3",
+            "1",
             "",
             "",
             ""
@@ -2480,7 +2389,7 @@
               },
               "parameters": [
                 "",
-                "GunSound",
+                "assets/sound/GunSound.wav",
                 "",
                 "RandomFloatInRange(50,65)",
                 "RandomFloatInRange(0.7,1)"
@@ -2747,7 +2656,7 @@
                           },
                           "parameters": [
                             "",
-                            "assets/soundthrough.mp3",
+                            "assets/sound/soundthrough.mp3",
                             "",
                             "",
                             ""
@@ -2776,7 +2685,7 @@
                           },
                           "parameters": [
                             "",
-                            "assets/glass-breaking.mp3",
+                            "assets/sound/glass-breaking.mp3",
                             "",
                             "",
                             ""
@@ -2826,7 +2735,7 @@
                           },
                           "parameters": [
                             "",
-                            "assets/soundthrough.mp3",
+                            "assets/sound/soundthrough.mp3",
                             "",
                             "",
                             ""
@@ -2886,7 +2795,7 @@
                           },
                           "parameters": [
                             "",
-                            "assets/coin-drop.mp3",
+                            "assets/sound/coin-drop.mp3",
                             "",
                             "",
                             ""
@@ -2936,7 +2845,7 @@
                           },
                           "parameters": [
                             "",
-                            "assets/sher.mp3",
+                            "assets/sound/sher.mp3",
                             "",
                             "",
                             ""
@@ -2976,7 +2885,7 @@
                           },
                           "parameters": [
                             "",
-                            "assets/soundthrough.mp3",
+                            "assets/sound/soundthrough.mp3",
                             "",
                             "",
                             ""
@@ -3026,7 +2935,7 @@
                           },
                           "parameters": [
                             "",
-                            "assets/explosion.mp3",
+                            "assets/targets/explosion/explosion.mp3",
                             "",
                             "",
                             ""
@@ -3049,7 +2958,7 @@
                           },
                           "parameters": [
                             "",
-                            "game_over.ogg",
+                            "assets/sound/game_over.ogg",
                             "",
                             "50",
                             ""
@@ -3452,7 +3361,7 @@
               },
               "parameters": [
                 "",
-                "game_over.ogg",
+                "assets/sound/game_over.ogg",
                 "",
                 "50",
                 ""
