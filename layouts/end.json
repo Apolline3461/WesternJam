@@ -733,6 +733,15 @@
             "50",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "MousePointerLock::ExitPointerLock"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
         }
       ]
     },
