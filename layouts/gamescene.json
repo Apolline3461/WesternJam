@@ -49,9 +49,6 @@
         },
         {
           "name": "MalusTarget2"
-        },
-        {
-          "name": "Bomb"
         }
       ]
     }
@@ -759,16 +756,29 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 54,
-      "height": 40,
+      "customSize": false,
+      "height": 32,
       "layer": "",
-      "name": "Bomb",
-      "persistentUuid": "b2115161-409b-42ce-b52c-36fa5a36e748",
-      "width": 18,
-      "x": 1000,
-      "y": -425,
-      "z": 64,
+      "name": "",
+      "persistentUuid": "93fd7356-a5dd-461a-8078-31bc125c9f84",
+      "width": 32,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 32,
+      "layer": "",
+      "name": "",
+      "persistentUuid": "289fdd22-5ac8-4c52-aadb-ef407c99c1aa",
+      "width": 32,
+      "x": 0,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -1312,6 +1322,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Crosshair",
+      "persistentUuid": "a28083f2-4c09-4d8f-b85e-164a18386701",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1662,323 +1673,6 @@
       }
     },
     {
-      "assetStoreId": "b873462da6ae53e209d8e54fb549003f1418fb6a778fa593e4a0d90ad4c65ba5",
-      "name": "Stool",
-      "persistentUuid": "42c15ffa-9e52-4727-8fa9-b631bee58586",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 18,
-        "height": 18,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Stool.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 90,
-        "width": 18,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "e1d935ba078a8df0a4e10ff40ebf96bd3e1d60320adbe5b4d6b7170c78094ee8",
-      "name": "barrel",
-      "persistentUuid": "d767d692-2248-4c7c-9cad-a456612cc062",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 13,
-        "height": 13,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "barrel.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": -90,
-        "width": 13,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "2cd13a98a8629057a0642b44174a8670baf10f05558dc03387d8a4601aaa56f8",
-      "name": "Mug",
-      "persistentUuid": "e3457886-2929-444c-9f82-cf1a38a49a22",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 15,
-        "height": 15,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Mug.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 15,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "415cad5ee4d7177900c0c44d749fdbe8a4ec629b77e1e7bdfe7399cdbc558dbd",
-      "name": "Bomb",
-      "persistentUuid": "7b286300-ebe6-4434-903c-8b7d6ac7d2d6",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 21,
-        "height": 21,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "assets/targets/explosion/Bomb.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 90,
-        "width": 21,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "7419f4517b8e5359d5f82444cc7b81826846b5fb124949383f90d766e4d0a06c",
-      "name": "Table_Cross",
-      "persistentUuid": "75fa68c2-7bb1-4bf0-8b5b-d110a0391da1",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 141,
-        "height": 141,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Table Cross.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 141,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "44a1a737b052da6c1f68e1b7b19c566592cb84d5201550244dac720a6c4250d3",
-      "name": "Barrel",
-      "persistentUuid": "b5ab941c-a065-46cc-9754-313df3161785",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 34,
-        "height": 34,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Barrel.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 34,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "6154696268e984dff335983d209410e25c4ed56f76fe1016b05e32eee3641108",
-      "name": "Chair",
-      "persistentUuid": "6f58175a-fcd9-4b14-8fae-c6bce57c00ed",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 78,
-        "height": 78,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Chair.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 78,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "e965ac8d77ce844ceb7867a0a228bd0903001c363175a6d488e0b2adb78fc3d9",
-      "name": "Crate_Big_Stack_2",
-      "persistentUuid": "e3d158aa-1da4-4fdd-b9b0-3b72659f1d50",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 39,
-        "height": 39,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Crate Big Stack 2.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 39,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "84b0096f88a3597a371a7196250d2aab57f8f4b93c556fb864a9b95f4346af3e",
-      "name": "Cabinet_Bed",
-      "persistentUuid": "b42e6583-6057-499c-9039-0e6d120b1174",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 44,
-        "height": 44,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Cabinet Bed.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 44,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "f43bb2cc1a83d433153cb297eb3218371b1f72eb72d003e38eba419ec6f5e611",
-      "name": "Bookcase_Open",
-      "persistentUuid": "6c1311c2-f10b-451f-b050-9e512b8899ce",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 145,
-        "height": 145,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Bookcase Open.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 145,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "8688ea12ba5bd46d52ae7dd8552cf6ab09e42cfa3eaade3815cbeb8625b84bb7",
-      "name": "Kitchen_Cabinet_Upper_Double",
-      "persistentUuid": "c6759231-aebb-41c3-a848-4641e46082b5",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 71,
-        "height": 71,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Kitchen Cabinet Upper Double.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 71,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "a301f84b093cba4f8e9ab7ecc4deb333cda33a8dfa617e2400ae7026825b8326",
-      "name": "Shelf_Small_Bottles",
-      "persistentUuid": "bb7c2493-677f-4577-b72e-808ac905bc42",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 34,
-        "height": 34,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Shelf Small Bottles.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 90,
-        "width": 34,
-        "animations": []
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "f95710b2af8510b03293b4569bec3ca66511e7c050a866c7a9e13e375a211b02",
       "name": "Rifle",
@@ -2038,6 +1732,32 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "BOMB",
+      "persistentUuid": "35da460e-d6a7-45fd-9dce-b5c1f53c609f",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "CenteredOnZ",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets/targets/explosion/Bomb.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 100,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2109,43 +1829,10 @@
         "objectName": "MarkerAbove"
       },
       {
-        "objectName": "Stool"
-      },
-      {
-        "objectName": "barrel"
-      },
-      {
-        "objectName": "Mug"
-      },
-      {
-        "objectName": "Bomb"
-      },
-      {
-        "objectName": "Table_Cross"
-      },
-      {
-        "objectName": "Barrel"
-      },
-      {
-        "objectName": "Chair"
-      },
-      {
-        "objectName": "Crate_Big_Stack_2"
-      },
-      {
-        "objectName": "Cabinet_Bed"
-      },
-      {
-        "objectName": "Bookcase_Open"
-      },
-      {
-        "objectName": "Kitchen_Cabinet_Upper_Double"
-      },
-      {
-        "objectName": "Shelf_Small_Bottles"
-      },
-      {
         "objectName": "Rifle"
+      },
+      {
+        "objectName": "BOMB"
       }
     ]
   },

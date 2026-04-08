@@ -1845,44 +1845,28 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/decors/Piano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/decors/Piano.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/WoodBack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/WoodBack.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
-  "objects": [
-    {
-      "assetStoreId": "f94a6af5ad900538ebca64a566d588b46c89e25b29add8178966c5f5bc8d1836",
-      "name": "Shelf_Simple",
-      "persistentUuid": "412d0b89-5e7b-4bfe-a67c-1a8b0f45aff4",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "CenteredOnZ",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 36,
-        "height": 36,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Shelf Simple.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 90,
-        "width": 36,
-        "animations": []
-      }
-    }
-  ],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Shelf_Simple"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "objectsGroups": [],
   "variables": [
